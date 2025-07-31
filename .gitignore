@@ -1,8 +1,8 @@
-# Ignore environment files
+# Environment variables
 .env
 
-# Ignore Python cache files
-__pycache__/
+# Database file - should be generated from schema.sql
+*.db
 
-# Ignore virtual environment folder
-.venv/
+# Python cache
+__pycache__/
